@@ -1,16 +1,9 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  background-image: url(/imagenes/fondo-chapa-semillada.jpg);
-  font-family: "Montserrat", sans-serif;
-  background-color: rgba(0, 0, 0, 0.7);
-  background-blend-mode: overlay;
-}
 .slogan {
   display: flex;
   align-items: center;
@@ -22,180 +15,13 @@ body {
   padding-right: 5px;
 }
 
-.slogan h1.sloganH1 {
-  font-size: 1.7rem;
-  font-family: "Raleway", sans-serif;
-  font-style: italic;
-  font-weight: bold;
+body {
+  background-image: url(/imagenes/fondo-chapa-semillada.jpg);
+  font-family: "Montserrat", sans-serif;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: overlay;
 }
 
-.divWhattsapp {
-  display: flex;
-  align-items: center;
-  background-color: #949191;
-  margin-top: 1.7rem;
-  margin-bottom: 1.7rem;
-  border-radius: 5px;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.divWhattsapp h2.celu {
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 2.5 rem;
-  padding: 5%;
-}
-
-.biHouse {
-  color: #ffffff;
-}
-
-.containerHeader2 {
-  display: flex;
-  width: 97%;
-  margin: 0 auto;
-  background-color: white;
-  justify-content: space-between;
-  border: 1px solid black;
-  border-radius: 10px;
-}
-
-.navbar-brand {
-  font-size: 0.8rem;
-}
-
-.navbar {
-  display: flex;
-}
-
-.navbar-nav {
-  font-size: 0.8rem;
-}
-
-.d-flex {
-  padding: 2%;
-}
-
-.labelLeyenda {
-  font-size: 16px;
-  white-space: nowrap;
-  padding: 5px;
-}
-
-.direcciones {
-  font-weight: bold;
-  color: #f0eaea;
-  text-align: center;
-}
-
-.imgf {
-  padding: 3%;
-  border-radius: 5px;
-}
-
-.imglogoprincipal {
-  border-radius: 5px;
-  margin-bottom: 1%;
-}
-
-.parp2 {
-  text-align: justify;
-  padding: 2rem;
-  line-height: 1.5;
-  font-family: "Raleway", sans-serif;
-  color: #f0eaea;
-}
-
-.h1p3 {
-  font-family: "Raleway", sans-serif;
-  text-align: center;
-  margin-top: 20px;
-  color: #f0eaea;
-}
-
-.par3-1 {
-  font-family: "Raleway", sans-serif;
-  color: #f0eaea;
-}
-
-.par3-2 {
-  font-family: "Raleway", sans-serif;
-  color: #f0eaea;
-}
-
-.mainSection4-1 {
-  justify-content: flex-end;
-  display: grid;
-  grid-template-rows: auto 1fr;
-  align-items: center;
-  gap: 10px;
-  padding: 10px;
-}
-
-.imgcar {
-  width: 50px;
-}
-
-/* no consigo que mi .mainSection4-2 tenga sus imágenes centradas!!!!!*/
-.mainSection4-2 {
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  margin: 0 auto;
-}
-
-.img4 {
-  width: 200px;
-  height: 150px;
-  display: flex;
-  padding: 10px;
-  align-items: center;
-}
-
-.section5-1 {
-  display: flex;
-}
-
-.imgClientes {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  padding: 2%;
-}
-
-.client5 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.pclient5 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 34px;
-  font-weight: bold;
-  font-family: "Raleway", sans-serif;
-}
-
-.section6 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.p6div1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.p6div2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+/*@import "estilosViejos";*/
 
 /*# sourceMappingURL=estilo.css.map */
