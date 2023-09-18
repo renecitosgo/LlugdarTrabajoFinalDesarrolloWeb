@@ -33,4 +33,43 @@ header {
             }
         }
     }
+    .containerHeader2 {
+        display: flex;
+        width: 97%;
+        margin: 0 auto;
+        background-color: white;
+        justify-content: space-between;
+        border: 1px solid black;
+        border-radius: 10px;
+        .navElements1 {
+            .navbar {
+                display: flex;
+                div {
+                    /*el de arriba: es .div o div a secas???*/
+                    .navbar-brand {
+                        font-size: 0.8rem;
+                    }
+                    div {
+                        .navbar-nav {
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+            }
+        }
+        .navElements2 {
+            div {
+                form {
+                    .labelLeyenda {
+                        font-size: 16px;
+                        white-space: nowrap;
+                        padding: 5px;
+                    }
+                    .d-flex {
+                        padding: 2%;
+                    }
+                }
+            }
+        }
+    }
 }
