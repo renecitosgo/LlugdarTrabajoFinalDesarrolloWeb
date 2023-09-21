@@ -5,12 +5,16 @@ header {
                 .slogan {
                     display: flex;
                     align-items: center;
+                    justify-content: center;
                     background-color: #949191;
                     margin-top: 1.7rem;
                     margin-bottom: 1.7rem;
                     border-radius: 5px;
                     padding-left: 5px;
                     padding-right: 5px;
+                    .sloganH1 {
+                        text-align: center;
+                    }
                 }
                 .divWhattsapp {
                     display: flex;

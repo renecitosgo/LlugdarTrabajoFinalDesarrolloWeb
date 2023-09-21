@@ -3,4 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+@media (min-width: 991px) {
+    .sloganH1 {
+        overflow-wrap: break-word;
+        white-space: nowrap;
+    }
+}
+@media (max-width: 767px) {
+    .row {
+        flex-direction: row;
+    }
 
+    .elemento2,
+    .elemento4 {
+        order: 1;
+    }
+
+    .elemento3 {
+        order: 2;
+    }
+}
