@@ -1,27 +1,39 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-@media (min-width: 991px) {
-  .sloganH1 {
+@media (max-width: 767px) {
+  header div {
+    /* mi home icon se posicione al lado de mi slogan en tamaños pequeños xs y sm */
+  }
+  header div .hrow {
+    flex-direction: row;
+  }
+  header div .hrow .elemento2 {
+    order: 1;
+  }
+}
+@media (max-width: 767px) and (min-width: 991px) {
+  header div .hrow .slogan {
+    /*sin esta media mi texto se coloca en 2 lineas a partir de lg */
+  }
+  header div .hrow .slogan .sloganH1 {
     overflow-wrap: break-word;
     white-space: nowrap;
   }
 }
 @media (max-width: 767px) {
-  .row {
-    flex-direction: row;
-  }
-  .elemento2,
-  .elemento4 {
+  header div .elemento4 {
     order: 1;
   }
-  .elemento3 {
+  header div .elemento3 {
     order: 2;
   }
 }
+
 header div div div .slogan {
   display: flex;
   align-items: center;
@@ -54,6 +66,7 @@ header div div div .divWhattsapp .celu h2 {
 }
 header .containerHeader2 {
   display: flex;
+  flex-direction: column;
   width: 97%;
   margin: 0 auto;
   background-color: white;
@@ -63,9 +76,6 @@ header .containerHeader2 {
 }
 header .containerHeader2 .navElements1 .navbar {
   display: flex;
-}
-header .containerHeader2 .navElements1 .navbar div {
-  /*el de arriba: es .div o div a secas???*/
 }
 header .containerHeader2 .navElements1 .navbar div .navbar-brand {
   font-size: 0.8rem;
@@ -86,6 +96,10 @@ footer div div .direcciones {
   font-weight: bold;
   color: #f0eaea;
   text-align: center;
+}
+footer div .imglogoFooter {
+  border-radius: 5px;
+  margin-bottom: 1%;
 }
 footer .iconsFooter {
   display: flex;

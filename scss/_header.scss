@@ -39,6 +39,7 @@ header {
     }
     .containerHeader2 {
         display: flex;
+        flex-direction: column;
         width: 97%;
         margin: 0 auto;
         background-color: white;
@@ -49,7 +50,6 @@ header {
             .navbar {
                 display: flex;
                 div {
-                    /*el de arriba: es .div o div a secas???*/
                     .navbar-brand {
                         font-size: 0.8rem;
                     }

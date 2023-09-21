@@ -17,7 +17,7 @@
 <body>
     <header>
         <div class="container-fluid">
-            <div class="row align-items-center">
+            <div class="row hrow align-items-center">
                 <div class="elemento1 container p-2 col-md-8 col-lg-3"> 
                     <div class="logoheader1"> 
                         <img class="imgLogoheader1 img-fluid mx-auto" src="./imagenes/solo letras aux24.jpg" alt="logo">
@@ -40,51 +40,53 @@
                 </div>
                 <div class="elemento4 biHouse col-2 col-md-1">
                     <a href="#">
-                        <i class="bi bi-house-door"></i>
+                        <i class="bi bi-house-door "></i>
                     </a>
                 </div>  
             </div> 
         </div>
-        <div class="containerHeader2">
-            <div class="navElements1 col-lg-6">
+        <div class="containerHeader2 d-flex justify-content-between">
+            <div class="navElements1 col-lg-7">
                 <nav class="navbar navbar-expand-lg bg-body-tertiary">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="./pages/page2.html">Que Hacemos?</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="./pages/page3.html">Quienes Somos</a>
+                                    <a class="nav-link fs-6" aria-current="page" href="./pages/page2.html">Que Hacemos?</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="./pages/page4.html">Nuestros Productos</a>
+                                    <a class="nav-link fs-6" aria-current="page" href="./pages/page3.html">Quienes Somos</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="./pages/page5.html">Nuestros Clientes</a>
+                                    <a class="nav-link fs-6" aria-current="page" href="./pages/page4.html">Nuestros Productos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fs-6" aria-current="page" href="./pages/page5.html">Nuestros Clientes</a>
                                 </li>       
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="./pages/page6.html">Contáctenos</a>
+                                    <a class="nav-link fs-6" aria-current="page" href="./pages/page6.html">Contáctenos</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </nav>
             </div>
-            <div class="navElements2 container col-lg-6"> 
-                <div class="row">
-                    <form class="d-flex flex-column flex-sm-row align-items-sm-center" role="search">
+            <div class="navElements2 col-lg-5 container"> 
+                <div class="row flex-column">
+                    <form class="justify-content-end d-flex flex-column text-start flex-sm-row align-items-sm-center" role="search">
                         <label class="labelLeyenda" for="Leyenda">Cual es tu vehículo?</label>
                         <div class="d-flex flex-row">
                             <label class="sr-only" for="searchInput"></label>
                             <input class="form-control me-2 mb-2 mb-sm-0" type="search" id="searchInput" placeholder="Volkswagen Gol" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                            <button class="btn btn-lg btn-outline-success" type="submit">Buscar</button>
                         </div>
                     </form>
                 </div>
             </div>                                     
-        </div>
+        </div>     
     </header>
     <div class="container-xl p-3">
         <div id="carouselExampleFade" class="carousel slide">
@@ -148,7 +150,7 @@
         </div>        
         
         <div class="container-sm col-xs-12 col-md-12 col-lg-4 text-center">
-            <img class="imglogoprincipal img-fluid mx-auto img-md" src="./imagenes/logoPrincipalAux24.jpg" alt="logo de Aux24">
+            <img class="imglogoFooter img-fluid mx-auto img-md" src="./imagenes/logoPrincipalAux24.jpg" alt="logo de Aux24">
         </div>
     </footer>
 
