@@ -18,7 +18,7 @@
 }
 @media (max-width: 767px) and (min-width: 991px) {
   header div .hrow .elemento2 .slogan {
-    /*sin esta media mi texto se coloca en 2 lineas a partir de lg */
+    /* sin esta media mi texto se coloca en 2 líneas a partir de lg */
   }
   header div .hrow .elemento2 .slogan .sloganH1 {
     overflow-wrap: break-word;
@@ -26,10 +26,10 @@
   }
 }
 @media (max-width: 767px) {
-  header div .elemento4 {
+  header div .hrow .elemento4 {
     order: 1;
   }
-  header div .elemento3 {
+  header div .hrow .elemento3 {
     order: 2;
   }
 }

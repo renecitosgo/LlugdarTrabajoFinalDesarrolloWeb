@@ -10,26 +10,29 @@ header {
             /* mi home icon se posicione al lado de mi slogan en tamaños pequeños xs y sm */
             .hrow {
                 flex-direction: row;
+
                 .elemento2 {
                     order: 1;
                     .slogan {
                         @media (min-width: 991px) {
-                            /*sin esta media mi texto se coloca en 2 lineas a partir de lg */
+                            /* sin esta media mi texto se coloca en 2 líneas a partir de lg */
                             .sloganH1 {
                                 overflow-wrap: break-word;
                                 white-space: nowrap;
                             }
                         }
                     }
-                }
-            }
-            .elemento4 {
-                order: 1;
-            }
+                } // Cierre de .elemento2
 
-            .elemento3 {
-                order: 2;
-            }
-        }
-    }
-}
+                .elemento4 {
+                    order: 1;
+                }
+
+                .elemento3 {
+                    order: 2;
+                }
+            } // Cierre de .hrow
+        } // Cierre de @media
+    } // Cierre de div
+} // Cierre de header
+
