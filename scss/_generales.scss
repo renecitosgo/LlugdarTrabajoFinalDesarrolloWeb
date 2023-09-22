@@ -12,13 +12,13 @@ header {
                 flex-direction: row;
                 .elemento2 {
                     order: 1;
-                }
-                .slogan {
-                    @media (min-width: 991px) {
-                        /*sin esta media mi texto se coloca en 2 lineas a partir de lg */
-                        .sloganH1 {
-                            overflow-wrap: break-word;
-                            white-space: nowrap;
+                    .slogan {
+                        @media (min-width: 991px) {
+                            /*sin esta media mi texto se coloca en 2 lineas a partir de lg */
+                            .sloganH1 {
+                                overflow-wrap: break-word;
+                                white-space: nowrap;
+                            }
                         }
                     }
                 }

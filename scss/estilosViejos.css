@@ -1,0 +1,104 @@
+@charset "UTF-8";
+.imglogoprincipal {
+  border-radius: 5px;
+  margin-bottom: 1%;
+}
+
+.parp2 {
+  text-align: justify;
+  padding: 2rem;
+  line-height: 1.5;
+  font-family: "Raleway", sans-serif;
+  color: #f0eaea;
+}
+
+.h1p3 {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  color: #f0eaea;
+}
+
+.par3-1 {
+  font-family: "Raleway", sans-serif;
+  color: #f0eaea;
+}
+
+.par3-2 {
+  font-family: "Raleway", sans-serif;
+  color: #f0eaea;
+}
+
+.mainSection4-1 {
+  justify-content: flex-end;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.imgcar {
+  width: 50px;
+}
+
+/* no consigo que mi .mainSection4-2 tenga sus imágenes centradas!!!!!*/
+.mainSection4-2 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.img4 {
+  width: 200px;
+  height: 150px;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.section5-1 {
+  display: flex;
+}
+
+.imgClientes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 2%;
+}
+
+.client5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pclient5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 34px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+}
+
+.section6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p6div1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p6div2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=estilosViejos.css.map */
