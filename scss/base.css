@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 761px) {
   header div {
     /* mi home icon se posicione al lado de mi slogan en tamaños pequeños xs y sm */
   }
@@ -16,7 +16,7 @@
     order: 1;
   }
 }
-@media (max-width: 767px) and (min-width: 991px) {
+@media (max-width: 761px) and (min-width: 991px) {
   header div .hrow .elemento2 .slogan {
     /* sin esta media mi texto se coloca en 2 líneas a partir de lg */
   }
@@ -25,7 +25,7 @@
     white-space: nowrap;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 761px) {
   header div .hrow .elemento4 {
     order: 1;
   }
