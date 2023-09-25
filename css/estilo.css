@@ -138,6 +138,42 @@ main div div .parp2 {
   color: #f0eaea;
 }
 
+main .tituloP5 {
+  display: flex;
+  justify-content: center;
+}
+main .tituloP5 h1 .pclient5 {
+  font-family: "Raleway", sans-serif;
+  color: #f0eaea;
+  font-size: 3rem;
+  padding: 2rem;
+}
+main .contienelasFotos {
+  display: flex;
+  margin: 10px auto;
+}
+main .contienelasFotos .section5-1 {
+  display: flex;
+  width: 20vw;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+main .contienelasFotos .contenedor-flex {
+  width: 70vw;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+main .contienelasFotos .contenedor-flex .imgCliente {
+  width: 200px; /* Define el ancho deseado para tus contenedores */
+  height: 200px; /* Define la altura deseada para tus contenedores */
+  border: 2px solid white; /* Agrega un borde sólido blanco de 2px */
+  /* Otros estilos que desees aplicar a tus contenedores */
+}
+
 main .section6 {
   display: flex;
   padding: 3%;
