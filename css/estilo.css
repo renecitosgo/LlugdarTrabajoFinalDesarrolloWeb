@@ -152,26 +152,35 @@ main .contienelasFotos {
   display: flex;
   margin: 10px auto;
 }
-main .contienelasFotos .section5-1 {
+main .section5-1 {
   display: flex;
-  width: 20vw;
-  padding: 10px;
   justify-content: center;
   align-items: center;
 }
-main .contienelasFotos .contenedor-flex {
-  width: 70vw;
+main .section5-1 .imgCliente5x {
+  width: 100%;
+}
+@media (max-width: 991px) {
+  main .section5-1 .imgCliente5x {
+    width: 40%;
+  }
+}
+main .section5-2 {
   padding: 10px;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
 }
-main .contienelasFotos .contenedor-flex .imgCliente {
-  width: 200px; /* Define el ancho deseado para tus contenedores */
-  height: 200px; /* Define la altura deseada para tus contenedores */
-  border: 2px solid white; /* Agrega un borde sólido blanco de 2px */
-  /* Otros estilos que desees aplicar a tus contenedores */
+main .section5-2 .imagenCliente5x5 {
+  border: solid black 20px;
+  width: 100%;
+}
+@media (max-width: 991px) {
+  main .section5-2 .imagenCliente5x5 {
+    width: 40;
+  }
 }
 
 main .section6 {

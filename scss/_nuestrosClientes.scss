@@ -16,23 +16,21 @@ main {
         margin: 10px auto;
     }
     
-    .section5-1 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        .section5-1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
     
-        .imgCliente5x {
-            /* Establecemos el ancho inicial de la imagen */
-            width: 100%; /* Ocupa todo el ancho de su contenedor */
-    
-            /* Media query para hacerla responsiva */
-            @media (max-width: 991px) {
-                width: 40%; /* Cuando el ancho de la pantalla sea igual o menor a 991px, la imagen ocupará el 90% de su contenedor */
+            .imgCliente5x {
+                width: 100%;    
+            
+                @media (max-width: 991px) {
+                    width: 40%;
+                }
             }
         }
-    }
     
-    .section5-2 {
+        .section5-2 {
         padding: 10px;
         display: flex;
         flex-direction: row;
@@ -40,19 +38,15 @@ main {
         align-items: center;
         justify-content: space-around;
     
-        .imagenCliente5x5 {
-            border: solid black 20px;
-            /* Establecemos el ancho inicial de la imagen */
-            width: 100%; /* Ocupa todo el ancho de su contenedor */
+            .imagenCliente5x5 {
+                border: solid black 20px;
+                width: 100%;
     
-            /* Media query para hacerla responsiva */
-            @media (max-width: 991px) {
-                width: 40; /* Cuando el ancho de la pantalla sea igual o menor a 991px, la imagen ocupará el 90% de su contenedor */
+                @media (max-width: 991px) {
+                    width: 40;
+                }
             }
         }
-    }
-    
-
     }
 
 
