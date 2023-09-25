@@ -7,7 +7,7 @@
 
 @media (max-width: 761px) {
   header div {
-    /* mi home icon se posicione al lado de mi slogan en tamaños pequeños xs y sm */
+    /* mi home icon se posicione al lado de mi slogan en tamaños pequeños xs y sm 🙂|*/
   }
   header div .hrow {
     flex-direction: row;
@@ -18,7 +18,7 @@
 }
 @media (max-width: 761px) and (max-width: 991px) {
   header div .hrow .elemento2 .slogan {
-    /* sin esta media mi texto se coloca en 2 líneas a partir de lg */
+    /* sin esta media mi texto se coloca en 2 líneas a partir de lg 🙂*/
   }
   header div .hrow .elemento2 .slogan .sloganH1 {
     overflow-wrap: break-word;
@@ -150,7 +150,13 @@ main .tituloP5 h1 .pclient5 {
 }
 main .contienelasFotos {
   display: flex;
+  align-items: center;
   margin: 10px auto;
+}
+@media (max-width: 992px) {
+  main .contienelasFotos {
+    display: flex;
+  }
 }
 main .section5-1 {
   display: flex;
@@ -158,29 +164,26 @@ main .section5-1 {
   align-items: center;
 }
 main .section5-1 .imgCliente5x {
-  width: 100%;
+  width: 90%;
 }
-@media (max-width: 991px) {
-  main .section5-1 .imgCliente5x {
-    width: 40%;
-  }
-}
-main .section5-2 {
+main .section5-2.contenedor-flex {
   padding: 10px;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
+  flex: 1;
+  margin: 10px;
+  /*contenedor de todas las imagenes pequeñas de cleintes*/
 }
-main .section5-2 .imagenCliente5x5 {
+@media (max-width: 768px) {
+  main .section5-2.contenedor-flex {
+    flex-direction: column;
+  }
+}
+main .section5-2.contenedor-flex .imagenCliente5x5 {
   border: solid black 20px;
   width: 100%;
-}
-@media (max-width: 991px) {
-  main .section5-2 .imagenCliente5x5 {
-    width: 40;
-  }
 }
 
 main .section6 {
@@ -218,6 +221,6 @@ main .section6 .p6div2Tels {
   padding: 5%;
 }
 
-/*@import "estilosViejos";*/
+/*@import "estilosViejos ya los pase a scss... me faltan los de las páginas 5 y 4 en construcción";*/
 
 /*# sourceMappingURL=estilo.css.map */

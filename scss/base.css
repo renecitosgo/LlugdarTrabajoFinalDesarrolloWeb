@@ -7,7 +7,7 @@
 
 @media (max-width: 761px) {
   header div {
-    /* mi home icon se posicione al lado de mi slogan en tamaños pequeños xs y sm */
+    /* mi home icon se posicione al lado de mi slogan en tamaños pequeños xs y sm 🙂|*/
   }
   header div .hrow {
     flex-direction: row;
@@ -18,7 +18,7 @@
 }
 @media (max-width: 761px) and (max-width: 991px) {
   header div .hrow .elemento2 .slogan {
-    /* sin esta media mi texto se coloca en 2 líneas a partir de lg */
+    /* sin esta media mi texto se coloca en 2 líneas a partir de lg 🙂*/
   }
   header div .hrow .elemento2 .slogan .sloganH1 {
     overflow-wrap: break-word;
@@ -138,6 +138,54 @@ main div div .parp2 {
   color: #f0eaea;
 }
 
+main .tituloP5 {
+  display: flex;
+  justify-content: center;
+}
+main .tituloP5 h1 .pclient5 {
+  font-family: "Raleway", sans-serif;
+  color: #f0eaea;
+  font-size: 3rem;
+  padding: 2rem;
+}
+main .contienelasFotos {
+  display: flex;
+  align-items: center;
+  margin: 10px auto;
+}
+@media (max-width: 992px) {
+  main .contienelasFotos {
+    display: flex;
+  }
+}
+main .section5-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .section5-1 .imgCliente5x {
+  width: 90%;
+}
+main .section5-2.contenedor-flex {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1;
+  margin: 10px;
+  /*contenedor de todas las imagenes pequeñas de cleintes*/
+}
+@media (max-width: 768px) {
+  main .section5-2.contenedor-flex {
+    flex-direction: column;
+  }
+}
+main .section5-2.contenedor-flex .imagenCliente5x5 {
+  border: solid black 20px;
+  width: 100%;
+}
+
 main .section6 {
   display: flex;
   padding: 3%;
@@ -150,21 +198,27 @@ main .section6 {
     align-items: center;
     text-align: center;
   }
-  main .section6 .p6div1 {
-    display: flex;
-  }
+}
+main .section6 .p6div1 {
+  display: flex;
+}
+main .section6 .p6div1 .imgP6 {
+  border: solid 1px rgb(234, 231, 231);
+  border-radius: 5px;
+  filter: brightness(0.9);
+}
+main .section6 .p6div1 .imgP6:hover {
+  filter: brightness(1);
+}
+@media (max-width: 991px) {
   main .section6 .p6div1 .imgP6 {
-    border: solid 1px rgb(234, 231, 231);
-    border-radius: 5px;
-    filter: brightness(0.9);
-  }
-  main .section6 .p6div1 .imgP6:hover {
-    filter: brightness(1);
-  }
-  main .section6 .p6div2Tels {
-    font-family: "Raleway", sans-serif;
-    color: #f0eaea;
+    width: 90%;
   }
 }
+main .section6 .p6div2Tels {
+  font-family: "Raleway", sans-serif;
+  color: #f0eaea;
+  padding: 5%;
+}
 
-/*@import "estilosViejos";*//*# sourceMappingURL=base.css.map */
+/*@import "estilosViejos ya los pase a scss... me faltan los de las páginas 5 y 4 en construcción";*//*# sourceMappingURL=base.css.map */

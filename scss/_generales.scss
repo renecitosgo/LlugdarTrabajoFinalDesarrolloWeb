@@ -7,7 +7,7 @@
 header {
     div {
         @media (max-width: 761px) {
-            /* mi home icon se posicione al lado de mi slogan en tamaños pequeños xs y sm */
+            /* mi home icon se posicione al lado de mi slogan en tamaños pequeños xs y sm 🙂|*/
             .hrow {
                 flex-direction: row;
 
@@ -15,7 +15,7 @@ header {
                     order: 1;
                     .slogan {
                         @media (max-width: 991px) {
-                            /* sin esta media mi texto se coloca en 2 líneas a partir de lg */
+                            /* sin esta media mi texto se coloca en 2 líneas a partir de lg 🙂*/
                             .sloganH1 {
                                 overflow-wrap: break-word;
                                 white-space: nowrap;
