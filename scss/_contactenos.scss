@@ -4,25 +4,34 @@ main {
         padding: 3%;
         align-items: center;
         justify-content: space-around;
+
         @media (max-width: 991px) {
             flex-direction: column;
             align-items: center;
             text-align: center;
-            .p6div1 {
-                display: flex;
-                .imgP6 {
-                    border: solid 1px rgb(234, 231, 231);
-                    border-radius: 5px;
-                    filter: brightness(0.9);
-                    &:hover {
-                        filter: brightness(1);
-                    }
+        }
+
+        .p6div1 {
+            display: flex;
+            .imgP6 {
+                border: solid 1px rgb(234, 231, 231);
+                border-radius: 5px;
+                filter: brightness(0.9);
+
+                &:hover {
+                    filter: brightness(1);
+                }
+
+                @media (max-width: 991px) {
+                    width: 90%;
                 }
             }
-            .p6div2Tels {
-                font-family: "Raleway", sans-serif;
-                color: #f0eaea;
-            }
+        }
+
+        .p6div2Tels {
+            font-family: "Raleway", sans-serif;
+            color: #f0eaea;
+            padding: 5%;
         }
     }
 }
