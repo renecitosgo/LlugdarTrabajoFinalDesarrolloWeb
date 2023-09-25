@@ -1,29 +1,4 @@
 @charset "UTF-8";
-.parp2 {
-  text-align: justify;
-  padding: 2rem;
-  line-height: 1.5;
-  font-family: "Raleway", sans-serif;
-  color: #f0eaea;
-}
-
-.h1p3 {
-  font-family: "Raleway", sans-serif;
-  text-align: center;
-  margin-top: 20px;
-  color: #f0eaea;
-}
-
-.par3-1 {
-  font-family: "Raleway", sans-serif;
-  color: #f0eaea;
-}
-
-.par3-2 {
-  font-family: "Raleway", sans-serif;
-  color: #f0eaea;
-}
-
 .mainSection4-1 {
   justify-content: flex-end;
   display: grid;
@@ -78,22 +53,4 @@
   font-size: 34px;
   font-weight: bold;
   font-family: "Raleway", sans-serif;
-}
-
-.section6 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.p6div1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.p6div2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }/*# sourceMappingURL=estilosViejos.css.map */

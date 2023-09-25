@@ -14,7 +14,7 @@ header {
                 .elemento2 {
                     order: 1;
                     .slogan {
-                        @media (min-width: 991px) {
+                        @media (max-width: 991px) {
                             /* sin esta media mi texto se coloca en 2 líneas a partir de lg */
                             .sloganH1 {
                                 overflow-wrap: break-word;

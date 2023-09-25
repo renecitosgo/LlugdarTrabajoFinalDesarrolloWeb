@@ -16,7 +16,7 @@
     order: 1;
   }
 }
-@media (max-width: 761px) and (min-width: 991px) {
+@media (max-width: 761px) and (max-width: 991px) {
   header div .hrow .elemento2 .slogan {
     /* sin esta media mi texto se coloca en 2 líneas a partir de lg */
   }
@@ -113,6 +113,58 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: rgba(0, 0, 0, 0.7);
   background-blend-mode: overlay;
+}
+
+main div div .parp2 {
+  text-align: justify;
+  padding: 2rem;
+  line-height: 1.5;
+  font-family: "Raleway", sans-serif;
+  color: #f0eaea;
+}
+
+.mainP3 .mainSection3-1 div .h1p3 {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  color: #f0eaea;
+}
+.mainP3 .mainSection3-2 div div .caja3-1 .par3-1 {
+  font-family: "Raleway", sans-serif;
+  color: #f0eaea;
+}
+.mainP3 .mainSection3-2 div div .caja3-2 .par3-2 {
+  font-family: "Raleway", sans-serif;
+  color: #f0eaea;
+}
+
+main .section6 {
+  display: flex;
+  padding: 3%;
+  align-items: center;
+  justify-content: space-around;
+}
+@media (max-width: 991px) {
+  main .section6 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  main .section6 .p6div1 {
+    display: flex;
+  }
+  main .section6 .p6div1 .imgP6 {
+    border: solid 1px rgb(234, 231, 231);
+    border-radius: 5px;
+    filter: brightness(0.9);
+  }
+  main .section6 .p6div1 .imgP6:hover {
+    filter: brightness(1);
+  }
+  main .section6 .p6div2Tels {
+    font-family: "Raleway", sans-serif;
+    color: #f0eaea;
+  }
 }
 
 /*@import "estilosViejos";*/
