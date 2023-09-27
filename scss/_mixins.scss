@@ -1,8 +1,8 @@
 @mixin telefonos () {
-    flex-direction: column;
     font-family: "Raleway", sans-serif;
     padding: 1%;
         a {
+            flex-direction: column;
             text-decoration: none;
             padding: 5px;
             filter: brightness(0.7);

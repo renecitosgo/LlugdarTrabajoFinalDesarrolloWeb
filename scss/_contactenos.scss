@@ -10,20 +10,29 @@ main {
             align-items: center;
             text-align: center;
         }
-            @media (max-width: 991px) {
-                width: 90%;
+            @media (max-width: 580px) {
+                align-items: center;
+                text-align: center;     
             }
+                
+        .tels {
+            display: block;
+            flex: none;
+
+            .p6div2Tels1 {
+                @include telefonos
+            }
+            .p6div2Tels2 {
+                @include telefonos
+            }
+            .p6div2Tels3 {
+                @include telefonos
+            }
+            .p6div2Tels4 {
+                @include telefonos
+            }
+
+        }
     }
-    .p6div2Tels1 {
-        @include telefonos
-    }
-    .p6div2Tels2 {
-        @include telefonos
-    }
-    .p6div2Tels3 {
-        @include telefonos
-    }
-    .p6div2Tels4 {
-        @include telefonos
-    }
+    
 }

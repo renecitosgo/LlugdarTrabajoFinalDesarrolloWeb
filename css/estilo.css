@@ -118,7 +118,17 @@ body {
   background-blend-mode: overlay;
 }
 
-main div div .parp2 {
+main div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main div div div .imgp2 {
+  justify-content: center;
+  align-items: center;
+}
+main div div div .parp2 {
+  display: flex;
   text-align: justify;
   padding: 2rem;
   line-height: 1.5;
@@ -126,18 +136,25 @@ main div div .parp2 {
   color: #f0eaea;
 }
 
+.mainP3 {
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
 .mainP3 .mainSection3-1 div .h1p3 {
   font-family: "Raleway", sans-serif;
   text-align: center;
   margin-top: 20px;
   color: #f0eaea;
-  /*animate__animated animate__fadeIn; no funciona!!!!!!!!!!*/
 }
 .mainP3 .mainSection3-2 div div .caja3-1 .par3-1 {
+  line-height: 2;
+  text-align: justify;
   font-family: "Raleway", sans-serif;
   color: #f0eaea;
 }
 .mainP3 .mainSection3-2 div div .caja3-2 .par3-2 {
+  line-height: 2;
+  text-align: justify;
   font-family: "Raleway", sans-serif;
   color: #f0eaea;
 }
@@ -203,76 +220,81 @@ main .section6 {
     text-align: center;
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 580px) {
   main .section6 {
-    width: 90%;
+    align-items: center;
+    text-align: center;
   }
 }
-main .p6div2Tels1 {
-  flex-direction: column;
+main .section6 .tels {
+  display: block;
+  flex: none;
+}
+main .section6 .tels .p6div2Tels1 {
   font-family: "Raleway", sans-serif;
   padding: 1%;
 }
-main .p6div2Tels1 a {
+main .section6 .tels .p6div2Tels1 a {
+  flex-direction: column;
   text-decoration: none;
   padding: 5px;
   filter: brightness(0.7);
 }
-main .p6div2Tels1 a:hover {
+main .section6 .tels .p6div2Tels1 a:hover {
   filter: brightness(1);
 }
-main .p6div2Tels1 h3 {
+main .section6 .tels .p6div2Tels1 h3 {
   text-wrap: nowrap;
   color: #f0eaea;
 }
-main .p6div2Tels2 {
-  flex-direction: column;
+main .section6 .tels .p6div2Tels2 {
   font-family: "Raleway", sans-serif;
   padding: 1%;
 }
-main .p6div2Tels2 a {
+main .section6 .tels .p6div2Tels2 a {
+  flex-direction: column;
   text-decoration: none;
   padding: 5px;
   filter: brightness(0.7);
 }
-main .p6div2Tels2 a:hover {
+main .section6 .tels .p6div2Tels2 a:hover {
   filter: brightness(1);
 }
-main .p6div2Tels2 h3 {
+main .section6 .tels .p6div2Tels2 h3 {
   text-wrap: nowrap;
   color: #f0eaea;
 }
-main .p6div2Tels3 {
-  flex-direction: column;
+main .section6 .tels .p6div2Tels3 {
   font-family: "Raleway", sans-serif;
   padding: 1%;
 }
-main .p6div2Tels3 a {
+main .section6 .tels .p6div2Tels3 a {
+  flex-direction: column;
   text-decoration: none;
   padding: 5px;
   filter: brightness(0.7);
 }
-main .p6div2Tels3 a:hover {
+main .section6 .tels .p6div2Tels3 a:hover {
   filter: brightness(1);
 }
-main .p6div2Tels3 h3 {
+main .section6 .tels .p6div2Tels3 h3 {
   text-wrap: nowrap;
   color: #f0eaea;
 }
-main .p6div2Tels4 {
-  flex-direction: column;
+main .section6 .tels .p6div2Tels4 {
   font-family: "Raleway", sans-serif;
   padding: 1%;
 }
-main .p6div2Tels4 a {
+main .section6 .tels .p6div2Tels4 a {
+  flex-direction: column;
   text-decoration: none;
   padding: 5px;
   filter: brightness(0.7);
 }
-main .p6div2Tels4 a:hover {
+main .section6 .tels .p6div2Tels4 a:hover {
   filter: brightness(1);
 }
-main .p6div2Tels4 h3 {
+main .section6 .tels .p6div2Tels4 h3 {
   text-wrap: nowrap;
   color: #f0eaea;
 }

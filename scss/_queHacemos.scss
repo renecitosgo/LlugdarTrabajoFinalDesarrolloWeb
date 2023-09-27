@@ -1,12 +1,22 @@
 main {
     div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         div {
-            .parp2 {
-                text-align: justify;
-                padding: 2rem;
-                line-height: 1.5;
-                font-family: "Raleway", sans-serif;
-                color: #f0eaea;
+            div {
+                .imgp2 {                justify-content: center;
+                align-items: center;
+                }        
+                .parp2 {
+                    display: flex;
+                    text-align: justify;
+                    
+                    padding: 2rem;
+                    line-height: 1.5;
+                    font-family:    "Raleway", sans-serif;
+                    color: #f0eaea;
+                }
             }
         }
     }

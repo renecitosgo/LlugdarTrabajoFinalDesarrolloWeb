@@ -1,4 +1,6 @@
 .mainP3 {
+    margin-top: 5%;
+    margin-bottom: 10%;
     .mainSection3-1 {
         div {
             .h1p3 {
@@ -6,7 +8,6 @@
                 text-align: center;
                 margin-top: 20px;
                 color: #f0eaea;
-                /*animate__animated animate__fadeIn; no funciona!!!!!!!!!!*/
             }
         }
     }
@@ -15,12 +16,16 @@
             div {
                 .caja3-1 {
                     .par3-1 {
+                        line-height: 2;
+                        text-align: justify;
                         font-family: "Raleway", sans-serif;
                         color: #f0eaea;
                     }
                 }
                 .caja3-2 {
                     .par3-2 {
+                        line-height: 2;
+                        text-align: justify;
                         font-family: "Raleway", sans-serif;
                         color: #f0eaea;
                     }
