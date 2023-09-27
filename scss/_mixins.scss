@@ -1,0 +1,19 @@
+@mixin telefonos () {
+    flex-direction: column;
+    font-family: "Raleway", sans-serif;
+    padding: 1%;
+        a {
+            text-decoration: none;
+            padding: 5px;
+            filter: brightness(0.7);
+
+            &:hover {
+            filter: brightness(1);
+            }
+        }
+            h3 {
+                text-wrap: nowrap;
+                color: #f0eaea;
+            
+            }
+}

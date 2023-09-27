@@ -6,7 +6,7 @@ header {
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    background-color: #949191;
+                    background: linear-gradient(to top, #636060, #949191);
                     margin-top: 1.7rem;
                     margin-bottom: 1.7rem;
                     border-radius: 5px;
@@ -19,7 +19,7 @@ header {
                 .divWhattsapp {
                     display: flex;
                     align-items: center;
-                    background-color: #949191;
+                    background: linear-gradient(to top,  #636060, #949191);
                     margin-top: 1.7rem;
                     margin-bottom: 1.7rem;
                     border-radius: 5px;
@@ -28,7 +28,10 @@ header {
                     .celu {
                         h2 {
                             display: inline-block;
+                            align-items: center;
                             vertical-align: middle;
+                            font-family:'Montserrat', sans-serif;
+                            color: rgb(35, 35, 35);
                             font-size: 2.5 rem;
                             padding: 5%;
                         }

@@ -10,28 +10,20 @@ main {
             align-items: center;
             text-align: center;
         }
-
-        .p6div1 {
-            display: flex;
-            .imgP6 {
-                border: solid 1px rgb(234, 231, 231);
-                border-radius: 5px;
-                filter: brightness(0.9);
-
-                &:hover {
-                    filter: brightness(1);
-                }
-
-                @media (max-width: 991px) {
-                    width: 90%;
-                }
+            @media (max-width: 991px) {
+                width: 90%;
             }
-        }
-
-        .p6div2Tels {
-            font-family: "Raleway", sans-serif;
-            color: #f0eaea;
-            padding: 5%;
-        }
+    }
+    .p6div2Tels1 {
+        @include telefonos
+    }
+    .p6div2Tels2 {
+        @include telefonos
+    }
+    .p6div2Tels3 {
+        @include telefonos
+    }
+    .p6div2Tels4 {
+        @include telefonos
     }
 }

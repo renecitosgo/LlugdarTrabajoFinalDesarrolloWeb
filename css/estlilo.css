@@ -38,7 +38,7 @@ header div div div .slogan {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #949191;
+  background: linear-gradient(to top, #636060, #949191);
   margin-top: 1.7rem;
   margin-bottom: 1.7rem;
   border-radius: 5px;
@@ -51,7 +51,7 @@ header div div div .slogan .sloganH1 {
 header div div div .divWhattsapp {
   display: flex;
   align-items: center;
-  background-color: #949191;
+  background: linear-gradient(to top, #636060, #949191);
   margin-top: 1.7rem;
   margin-bottom: 1.7rem;
   border-radius: 5px;
@@ -60,7 +60,10 @@ header div div div .divWhattsapp {
 }
 header div div div .divWhattsapp .celu h2 {
   display: inline-block;
+  align-items: center;
   vertical-align: middle;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(35, 35, 35);
   font-size: 2.5 rem;
   padding: 5%;
 }
@@ -128,6 +131,7 @@ main div div .parp2 {
   text-align: center;
   margin-top: 20px;
   color: #f0eaea;
+  /*animate__animated animate__fadeIn; no funciona!!!!!!!!!!*/
 }
 .mainP3 .mainSection3-2 div div .caja3-1 .par3-1 {
   font-family: "Raleway", sans-serif;
@@ -164,7 +168,7 @@ main .section5-1 {
   align-items: center;
 }
 main .section5-1 .imgCliente5x {
-  width: 89%;
+  width: 90%;
 }
 main .section5-2.contenedor-flex {
   padding: 10px;
@@ -199,26 +203,80 @@ main .section6 {
     text-align: center;
   }
 }
-main .section6 .p6div1 {
-  display: flex;
-}
-main .section6 .p6div1 .imgP6 {
-  border: solid 1px rgb(234, 231, 231);
-  border-radius: 5px;
-  filter: brightness(0.9);
-}
-main .section6 .p6div1 .imgP6:hover {
-  filter: brightness(1);
-}
 @media (max-width: 991px) {
-  main .section6 .p6div1 .imgP6 {
+  main .section6 {
     width: 90%;
   }
 }
-main .section6 .p6div2Tels {
+main .p6div2Tels1 {
+  flex-direction: column;
   font-family: "Raleway", sans-serif;
+  padding: 1%;
+}
+main .p6div2Tels1 a {
+  text-decoration: none;
+  padding: 5px;
+  filter: brightness(0.7);
+}
+main .p6div2Tels1 a:hover {
+  filter: brightness(1);
+}
+main .p6div2Tels1 h3 {
+  text-wrap: nowrap;
   color: #f0eaea;
-  padding: 5%;
+}
+main .p6div2Tels2 {
+  flex-direction: column;
+  font-family: "Raleway", sans-serif;
+  padding: 1%;
+}
+main .p6div2Tels2 a {
+  text-decoration: none;
+  padding: 5px;
+  filter: brightness(0.7);
+}
+main .p6div2Tels2 a:hover {
+  filter: brightness(1);
+}
+main .p6div2Tels2 h3 {
+  text-wrap: nowrap;
+  color: #f0eaea;
+}
+main .p6div2Tels3 {
+  flex-direction: column;
+  font-family: "Raleway", sans-serif;
+  padding: 1%;
+}
+main .p6div2Tels3 a {
+  text-decoration: none;
+  padding: 5px;
+  filter: brightness(0.7);
+}
+main .p6div2Tels3 a:hover {
+  filter: brightness(1);
+}
+main .p6div2Tels3 h3 {
+  text-wrap: nowrap;
+  color: #f0eaea;
+}
+main .p6div2Tels4 {
+  flex-direction: column;
+  font-family: "Raleway", sans-serif;
+  padding: 1%;
+}
+main .p6div2Tels4 a {
+  text-decoration: none;
+  padding: 5px;
+  filter: brightness(0.7);
+}
+main .p6div2Tels4 a:hover {
+  filter: brightness(1);
+}
+main .p6div2Tels4 h3 {
+  text-wrap: nowrap;
+  color: #f0eaea;
 }
 
-/*@import "estilosViejos ya los pase a scss... me faltan los de las páginas 5 y 4 en construcción";*//*# sourceMappingURL=base.css.map */
+/*@import "estilosViejos ya los pase a scss... me faltan los de las páginas 5 y 4 en construcción";*/
+
+/*# sourceMappingURL=estlilo.css.map */
