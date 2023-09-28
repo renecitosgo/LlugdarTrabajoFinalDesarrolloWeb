@@ -10,29 +10,36 @@ main {
             align-items: center;
             text-align: center;
         }
-            @media (max-width: 580px) {
-                align-items: center;
-                text-align: center;     
+        .p6div1 {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            a {
+                img.imgP6 {
+                    whidth: 100%;
+                    
+                    @media (max-width: 580px) {
+                        width: 90%;
+                    }
+                }
             }
-                
+        }
         .tels {
             display: block;
             flex: none;
 
             .p6div2Tels1 {
-                @include telefonos
+                @include telefonos;
             }
             .p6div2Tels2 {
-                @include telefonos
+                @include telefonos;
             }
             .p6div2Tels3 {
-                @include telefonos
+                @include telefonos;
             }
             .p6div2Tels4 {
-                @include telefonos
+                @include telefonos;
             }
-
         }
     }
-    
 }
