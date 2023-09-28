@@ -14,10 +14,16 @@ main {
             display: flex;
             align-items: center;
             justify-content: space-around;
+
             a {
                 img.imgP6 {
                     whidth: 100%;
-                    
+                    filter: brightness(0.7);
+
+                    &:hover {
+                    filter: brightness(1);
+                    }
+
                     @media (max-width: 580px) {
                         width: 90%;
                     }

@@ -227,6 +227,10 @@ main .section6 .p6div1 {
 }
 main .section6 .p6div1 a img.imgP6 {
   whidth: 100%;
+  filter: brightness(0.7);
+}
+main .section6 .p6div1 a img.imgP6:hover {
+  filter: brightness(1);
 }
 @media (max-width: 580px) {
   main .section6 .p6div1 a img.imgP6 {
