@@ -17,3 +17,15 @@
             
             }
 }
+@mixin imagenesPequenas () {
+    padding: 2%;
+    border: solid black 1px;
+    width: 100px;
+    height: 100px;
+
+    @media (max-width:330px) {
+        width: 30px;
+        height: auto;
+        
+    }
+}

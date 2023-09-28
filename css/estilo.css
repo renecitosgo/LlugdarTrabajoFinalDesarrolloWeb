@@ -171,40 +171,173 @@ main .tituloP5 h1 .pclient5 {
 }
 main .contienelasFotos {
   display: flex;
-  align-items: center;
-  margin: 10px auto;
 }
-@media (max-width: 992px) {
+@media (max-width: 768px) {
   main .contienelasFotos {
     display: flex;
+    flex-direction: column;
   }
 }
 main .section5-1 {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 main .section5-1 .imgCliente5x {
+  display: flex;
   width: 90%;
 }
 main .section5-2.contenedor-flex {
   padding: 10px;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around;
-  flex: 1;
-  margin: 10px;
-  /*contenedor de todas las imagenes pequeñas de cleintes*/
 }
-@media (max-width: 768px) {
-  main .section5-2.contenedor-flex {
-    flex-direction: column;
+@media (max-width: 480px) {
+  main .section5-2.contenedor-flex .tresImagenes1, main .section5-2.contenedor-flex .tresImagenes2, main .section5-2.contenedor-flex .tresImagenes3, main .section5-2.contenedor-flex .tresImagenes4 {
+    width: 90%;
   }
 }
-main .section5-2.contenedor-flex .imagenCliente5x5 {
-  border: solid black 20px;
-  width: 100%;
+main .section5-2.contenedor-flex .imagenC1 {
+  padding: 2%;
+  border: solid black 1px;
+  width: 100px;
+  height: 100px;
+}
+@media (max-width: 330px) {
+  main .section5-2.contenedor-flex .imagenC1 {
+    width: 30px;
+    height: auto;
+  }
+}
+main .section5-2.contenedor-flex .imagenC2 {
+  padding: 2%;
+  border: solid black 1px;
+  width: 100px;
+  height: 100px;
+}
+@media (max-width: 330px) {
+  main .section5-2.contenedor-flex .imagenC2 {
+    width: 30px;
+    height: auto;
+  }
+}
+main .section5-2.contenedor-flex .imagenC3 {
+  padding: 2%;
+  border: solid black 1px;
+  width: 100px;
+  height: 100px;
+}
+@media (max-width: 330px) {
+  main .section5-2.contenedor-flex .imagenC3 {
+    width: 30px;
+    height: auto;
+  }
+}
+main .section5-2.contenedor-flex .imagenC4 {
+  padding: 2%;
+  border: solid black 1px;
+  width: 100px;
+  height: 100px;
+}
+@media (max-width: 330px) {
+  main .section5-2.contenedor-flex .imagenC4 {
+    width: 30px;
+    height: auto;
+  }
+}
+main .section5-2.contenedor-flex .imagenC5 {
+  padding: 2%;
+  border: solid black 1px;
+  width: 100px;
+  height: 100px;
+}
+@media (max-width: 330px) {
+  main .section5-2.contenedor-flex .imagenC5 {
+    width: 30px;
+    height: auto;
+  }
+}
+main .section5-2.contenedor-flex .imagenC6 {
+  padding: 2%;
+  border: solid black 1px;
+  width: 100px;
+  height: 100px;
+}
+@media (max-width: 330px) {
+  main .section5-2.contenedor-flex .imagenC6 {
+    width: 30px;
+    height: auto;
+  }
+}
+main .section5-2.contenedor-flex .imagenC7 {
+  padding: 2%;
+  border: solid black 1px;
+  width: 100px;
+  height: 100px;
+}
+@media (max-width: 330px) {
+  main .section5-2.contenedor-flex .imagenC7 {
+    width: 30px;
+    height: auto;
+  }
+}
+main .section5-2.contenedor-flex .imagenC8 {
+  padding: 2%;
+  border: solid black 1px;
+  width: 100px;
+  height: 100px;
+}
+@media (max-width: 330px) {
+  main .section5-2.contenedor-flex .imagenC8 {
+    width: 30px;
+    height: auto;
+  }
+}
+main .section5-2.contenedor-flex .imagenC9 {
+  padding: 2%;
+  border: solid black 1px;
+  width: 100px;
+  height: 100px;
+}
+@media (max-width: 330px) {
+  main .section5-2.contenedor-flex .imagenC9 {
+    width: 30px;
+    height: auto;
+  }
+}
+main .section5-2.contenedor-flex .imagenC10 {
+  padding: 2%;
+  border: solid black 1px;
+  width: 100px;
+  height: 100px;
+}
+@media (max-width: 330px) {
+  main .section5-2.contenedor-flex .imagenC10 {
+    width: 30px;
+    height: auto;
+  }
+}
+main .section5-2.contenedor-flex .imagenC11 {
+  padding: 2%;
+  border: solid black 1px;
+  width: 100px;
+  height: 100px;
+}
+@media (max-width: 330px) {
+  main .section5-2.contenedor-flex .imagenC11 {
+    width: 30px;
+    height: auto;
+  }
+}
+main .section5-2.contenedor-flex .imagenC12 {
+  padding: 2%;
+  border: solid black 1px;
+  width: 100px;
+  height: 100px;
+}
+@media (max-width: 330px) {
+  main .section5-2.contenedor-flex .imagenC12 {
+    width: 30px;
+    height: auto;
+  }
 }
 
 main .section6 {
