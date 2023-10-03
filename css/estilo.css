@@ -178,10 +178,10 @@ main .contienelasFotos {
     flex-direction: column;
   }
 }
-main .section5-1 {
+main git .section5-1 {
   display: flex;
 }
-main .section5-1 .imgCliente5x {
+main git .section5-1 .imgCliente5x {
   display: flex;
   width: 90%;
 }
