@@ -166,8 +166,31 @@ main .mainSection4-1 .row .carrito .car {
   padding: 1%;
 }
 main .mainSection4-2 {
+  display: flex;
   justify-content: start;
   padding: 1%;
+}
+main .mainSection4-2 .productos1 .img4-2-1 {
+  border: solid 2px white;
+  border-radius: 3px;
+}
+@media (max-width: 992px) {
+  main .mainSection4-3 {
+    display: flex;
+    flex-direction: column;
+  }
+  main .mainSection4-3 .productos2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (min-width: 992px) {
+  main .mainSection4-3 .productos2 {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 main .tituloP5 {

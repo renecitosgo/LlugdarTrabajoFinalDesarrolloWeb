@@ -1,15 +1,49 @@
 main {
-    .mainSection4-1 { justify-content: end;
+    .mainSection4-1 {
+        justify-content: end;
         .row {
             .carrito {
-                .car{
+                .car {
                     padding: 1%;
                 }
             }
         }
     }
+
     .mainSection4-2 {
+        display: flex;
         justify-content: start;
         padding: 1%;
+
+        .productos1 {
+            .img4-2-1 {
+                border: solid 2px white;
+                border-radius: 3px;
+            }
+        }
     }
-}
+    .mainSection4-3 {
+
+        @media (max-width: 992px) {
+            display: flex;
+            flex-direction: column;
+                
+            .productos2 {
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+        
+        @media (min-width: 992px) {
+                                
+            .productos2 {
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                }
+            }
+        }
+    }   
+
+
