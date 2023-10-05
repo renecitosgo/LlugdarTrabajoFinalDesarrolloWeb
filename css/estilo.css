@@ -130,6 +130,7 @@ main div div div .imgp2 {
 main div div div .parp2 {
   display: flex;
   text-align: justify;
+  white-space: pre-line;
   padding: 2rem;
   line-height: 1.5;
   font-family: "Raleway", sans-serif;
@@ -145,6 +146,7 @@ main div div div .parp2 {
   text-align: center;
   margin-top: 20px;
   color: #f0eaea;
+  font-size: 4rem;
 }
 .mainP3 .mainSection3-2 div div .caja3-1 .par3-1 {
   line-height: 2;
@@ -159,6 +161,10 @@ main div div div .parp2 {
   color: #f0eaea;
 }
 
+main {
+  padding-top: 2rem;
+  padding-bottom: 5%;
+}
 main .mainSection4-1 {
   justify-content: end;
 }
@@ -170,14 +176,24 @@ main .mainSection4-2 {
   justify-content: start;
   padding: 1%;
 }
+main .mainSection4-2 .productos1 {
+  justify-content: start;
+  padding: 3%;
+}
 main .mainSection4-2 .productos1 .img4-2-1 {
-  border: solid 2px white;
+  border: solid 2px rgb(94, 85, 85);
   border-radius: 3px;
+}
+@media (max-width: 992px) {
+  main .mainSection4-2 .productos1 {
+    justify-content: center;
+  }
 }
 @media (max-width: 992px) {
   main .mainSection4-3 {
     display: flex;
     flex-direction: column;
+    margin-top: 10%;
   }
   main .mainSection4-3 .productos2 {
     flex-direction: column;
@@ -191,6 +207,54 @@ main .mainSection4-2 .productos1 .img4-2-1 {
     align-items: center;
     justify-content: center;
   }
+}
+main .mainSection4-3 .productos2 .prod2-1 {
+  display: flex;
+  flex-direction: column;
+}
+main .mainSection4-3 .productos2 .prod2-1 img {
+  border: solid grey 1px;
+  border-radius: 2px;
+  padding: 10px;
+}
+main .mainSection4-3 .productos2 .prod2-1 .p-4 {
+  font-family: "Raleway", sans-serif;
+  text-wrap: nowrap;
+  color: #f0eaea;
+  font-weight: bold;
+  font-size: 1rem;
+}
+main .mainSection4-3 .productos2 .prod2-2 {
+  display: flex;
+  flex-direction: column;
+}
+main .mainSection4-3 .productos2 .prod2-2 img {
+  border: solid grey 1px;
+  border-radius: 2px;
+  padding: 10px;
+}
+main .mainSection4-3 .productos2 .prod2-2 .p-4 {
+  font-family: "Raleway", sans-serif;
+  text-wrap: nowrap;
+  color: #f0eaea;
+  font-weight: bold;
+  font-size: 1rem;
+}
+main .mainSection4-3 .productos2 .prod2-3 {
+  display: flex;
+  flex-direction: column;
+}
+main .mainSection4-3 .productos2 .prod2-3 img {
+  border: solid grey 1px;
+  border-radius: 2px;
+  padding: 10px;
+}
+main .mainSection4-3 .productos2 .prod2-3 .p-4 {
+  font-family: "Raleway", sans-serif;
+  text-wrap: nowrap;
+  color: #f0eaea;
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 main .tituloP5 {
@@ -476,7 +540,5 @@ main .section6 .tels .p6div2Tels4 h3 {
   text-wrap: nowrap;
   color: #f0eaea;
 }
-
-/*@import "estilosViejos ya los pase a scss... me faltan los de las páginas 5 y 4 en construcción";*/
 
 /*# sourceMappingURL=estilo.css.map */

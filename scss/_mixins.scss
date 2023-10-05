@@ -1,31 +1,42 @@
-@mixin telefonos () {
+@mixin telefonos() {
     font-family: "Raleway", sans-serif;
     padding: 1%;
-        a {
-            flex-direction: column;
-            text-decoration: none;
-            padding: 5px;
-            filter: brightness(0.7);
+    a {
+        flex-direction: column;
+        text-decoration: none;
+        padding: 5px;
+        filter: brightness(0.7);
 
-            &:hover {
+        &:hover {
             filter: brightness(1);
-            }
         }
-            h3 {
-                text-wrap: nowrap;
-                color: #f0eaea;
-            
-            }
+    }
+    h3 {
+        text-wrap: nowrap;
+        color: #f0eaea;
+    }
 }
-@mixin imagenesPequenas () {
+@mixin imagenesPequenas() {
     padding: 2%;
     border: solid black 1px;
     width: 100px;
     height: 100px;
 
-    @media (max-width:330px) {
+    @media (max-width: 330px) {
         width: 30px;
         height: auto;
-        
     }
+}
+
+@mixin parrafolineaSimple() {
+    font-family: "Raleway", sans-serif;
+    text-wrap: nowrap;
+    color: #f0eaea;
+    font-weight: bold;
+    font-size: 1rem;
+}
+@mixin imgProductos() {
+    border: solid grey 1px;
+    border-radius: 2px;
+    padding: 10px;
 }
