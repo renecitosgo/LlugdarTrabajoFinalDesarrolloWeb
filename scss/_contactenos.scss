@@ -18,7 +18,7 @@ main {
             a {
                 img.imgP6 {
                     whidth: 100%;
-                    filter: brightness(0.7);
+                    filter: brightness(0.9);
 
                     &:hover {
                     filter: brightness(1);
@@ -47,5 +47,22 @@ main {
                 @include telefonos;
             }
         }
+    }
+    .correoE a {
+        text-decoration:none;
+        padding: 5%;
+        h2 {
+        font-size: 2rem;
+        color: rgb(190, 190, 5);
+        filter: brightness(0.9);
+
+        &:hover {
+            filter: brightness(1);
+        }
+
+        @media(max-width:480px) {
+            font-size: 100%;
+        }
+        }  
     }
 }

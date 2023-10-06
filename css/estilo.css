@@ -112,7 +112,7 @@ footer .iconsFooter {
 }
 
 body {
-  background-image: url(../imagenes/fondo-chapa-semillada.jpg);
+  background-image: url(../imagenes/fondo-chapa-semilladaOptimizada.jpg);
   font-family: "Montserrat", sans-serif;
   background-color: rgba(0, 0, 0, 0.7);
   background-blend-mode: overlay;
@@ -276,10 +276,17 @@ main .contienelasFotos {
     flex-direction: column;
   }
 }
-main git .section5-1 {
+@media (min-width: 1600px) {
+  main .contienelasFotos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+main .section5-1 {
   display: flex;
 }
-main git .section5-1 .imgCliente5x {
+main .section5-1 .imgCliente5x {
   display: flex;
   width: 90%;
 }
@@ -287,152 +294,153 @@ main .section5-2.contenedor-flex {
   padding: 10px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 @media (max-width: 480px) {
-  main .section5-2.contenedor-flex .tresImagenes1, main .section5-2.contenedor-flex .tresImagenes2, main .section5-2.contenedor-flex .tresImagenes3, main .section5-2.contenedor-flex .tresImagenes4 {
+  main .tresImagenes1, main .tresImagenes2, main .tresImagenes3, main .tresImagenes4 {
     width: 90%;
   }
 }
-main .section5-2.contenedor-flex .imagenC1 {
+main .imagenC1 {
   padding: 2%;
   border: solid black 1px;
   width: 100px;
   height: 100px;
 }
 @media (max-width: 330px) {
-  main .section5-2.contenedor-flex .imagenC1 {
+  main .imagenC1 {
     width: 30px;
     height: auto;
   }
 }
-main .section5-2.contenedor-flex .imagenC2 {
+main .imagenC2 {
   padding: 2%;
   border: solid black 1px;
   width: 100px;
   height: 100px;
 }
 @media (max-width: 330px) {
-  main .section5-2.contenedor-flex .imagenC2 {
+  main .imagenC2 {
     width: 30px;
     height: auto;
   }
 }
-main .section5-2.contenedor-flex .imagenC3 {
+main .imagenC3 {
   padding: 2%;
   border: solid black 1px;
   width: 100px;
   height: 100px;
 }
 @media (max-width: 330px) {
-  main .section5-2.contenedor-flex .imagenC3 {
+  main .imagenC3 {
     width: 30px;
     height: auto;
   }
 }
-main .section5-2.contenedor-flex .imagenC4 {
+main .imagenC4 {
   padding: 2%;
   border: solid black 1px;
   width: 100px;
   height: 100px;
 }
 @media (max-width: 330px) {
-  main .section5-2.contenedor-flex .imagenC4 {
+  main .imagenC4 {
     width: 30px;
     height: auto;
   }
 }
-main .section5-2.contenedor-flex .imagenC5 {
+main .imagenC5 {
   padding: 2%;
   border: solid black 1px;
   width: 100px;
   height: 100px;
 }
 @media (max-width: 330px) {
-  main .section5-2.contenedor-flex .imagenC5 {
+  main .imagenC5 {
     width: 30px;
     height: auto;
   }
 }
-main .section5-2.contenedor-flex .imagenC6 {
+main .imagenC6 {
   padding: 2%;
   border: solid black 1px;
   width: 100px;
   height: 100px;
 }
 @media (max-width: 330px) {
-  main .section5-2.contenedor-flex .imagenC6 {
+  main .imagenC6 {
     width: 30px;
     height: auto;
   }
 }
-main .section5-2.contenedor-flex .imagenC7 {
+main .imagenC7 {
   padding: 2%;
   border: solid black 1px;
   width: 100px;
   height: 100px;
 }
 @media (max-width: 330px) {
-  main .section5-2.contenedor-flex .imagenC7 {
+  main .imagenC7 {
     width: 30px;
     height: auto;
   }
 }
-main .section5-2.contenedor-flex .imagenC8 {
+main .imagenC8 {
   padding: 2%;
   border: solid black 1px;
   width: 100px;
   height: 100px;
 }
 @media (max-width: 330px) {
-  main .section5-2.contenedor-flex .imagenC8 {
+  main .imagenC8 {
     width: 30px;
     height: auto;
   }
 }
-main .section5-2.contenedor-flex .imagenC9 {
+main .imagenC9 {
   padding: 2%;
   border: solid black 1px;
   width: 100px;
   height: 100px;
 }
 @media (max-width: 330px) {
-  main .section5-2.contenedor-flex .imagenC9 {
+  main .imagenC9 {
     width: 30px;
     height: auto;
   }
 }
-main .section5-2.contenedor-flex .imagenC10 {
+main .imagenC10 {
   padding: 2%;
   border: solid black 1px;
   width: 100px;
   height: 100px;
 }
 @media (max-width: 330px) {
-  main .section5-2.contenedor-flex .imagenC10 {
+  main .imagenC10 {
     width: 30px;
     height: auto;
   }
 }
-main .section5-2.contenedor-flex .imagenC11 {
+main .imagenC11 {
   padding: 2%;
   border: solid black 1px;
   width: 100px;
   height: 100px;
 }
 @media (max-width: 330px) {
-  main .section5-2.contenedor-flex .imagenC11 {
+  main .imagenC11 {
     width: 30px;
     height: auto;
   }
 }
-main .section5-2.contenedor-flex .imagenC12 {
+main .imagenC12 {
   padding: 2%;
   border: solid black 1px;
   width: 100px;
   height: 100px;
 }
 @media (max-width: 330px) {
-  main .section5-2.contenedor-flex .imagenC12 {
+  main .imagenC12 {
     width: 30px;
     height: auto;
   }
@@ -458,7 +466,7 @@ main .section6 .p6div1 {
 }
 main .section6 .p6div1 a img.imgP6 {
   whidth: 100%;
-  filter: brightness(0.7);
+  filter: brightness(0.9);
 }
 main .section6 .p6div1 a img.imgP6:hover {
   filter: brightness(1);
@@ -539,6 +547,23 @@ main .section6 .tels .p6div2Tels4 a:hover {
 main .section6 .tels .p6div2Tels4 h3 {
   text-wrap: nowrap;
   color: #f0eaea;
+}
+main .correoE a {
+  text-decoration: none;
+  padding: 5%;
+}
+main .correoE a h2 {
+  font-size: 2rem;
+  color: rgb(190, 190, 5);
+  filter: brightness(0.9);
+}
+main .correoE a h2:hover {
+  filter: brightness(1);
+}
+@media (max-width: 480px) {
+  main .correoE a h2 {
+    font-size: 100%;
+  }
 }
 
 /*# sourceMappingURL=estilo.css.map */

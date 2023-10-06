@@ -18,7 +18,15 @@ main {
             display: flex;
             flex-direction: column;
         }
-    }git
+
+        @media (min-width:1600px) {
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            }
+
+        
+    }
     .section5-1 {
         display: flex;
 
@@ -32,9 +40,10 @@ main {
         padding: 10px;
         display: flex;
         flex-wrap: wrap;
-
+        justify-content: center;
+    }    
         .tresImagenes1, .tresImagenes2, .tresImagenes3, .tresImagenes4 {
-
+            
         @media (max-width:480px) {
             width: 90%;
             }
@@ -75,15 +84,5 @@ main {
         .imagenC12 {
             @include imagenesPequenas;
         }
-
-
-
-
-
-
-
-
-
-
     }
-}
+
